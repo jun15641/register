@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+  margin:0 auto;
+  width:500px;
+  text-align: center;
+  padding:20px;
+}
+
+header h2{
+  background-color: orange;
+  margin-bottom: auto;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.container-form{
+  background-color: aliceblue;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+label{
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.btn{
+  font-size: 18px;
+  box-shadow: 3px 3px black;
+  border-radius: 4px;  
+  cursor: pointer;
+  background-color: orange;
+}
+
+.btn:active{
+  box-shadow: none;
+}
+
+.input-name{
+  font-size: 18px;
+}
